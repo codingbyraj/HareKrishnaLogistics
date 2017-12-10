@@ -1,0 +1,208 @@
+#preheader {
+    padding: 7px;
+    background-color: #f2f2f2;
+}
+
+#preheader .precontact {
+    font-family: 'Crete Round', serif;
+    font-size: 16px;
+}
+
+#preheader .call,
+.mail {
+    padding: 3px 10px;
+    color: black;
+}
+
+#preheader .call {
+    border-right: 2px solid;
+}
+
+#preheader .preheadcont {}
+
+#preheader .presocial {
+    font-size: 22px;
+    margin-left: 75%;
+    margin-top: -1%;
+}
+
+#preheader .presocial .fb,
+.twit,
+.gp {
+    padding: 0px 5px;
+}
+
+#preheader .presocial .fb .fa {
+    color: #3b5998;
+}
+
+#preheader .presocial .twit {
+    color: #0084b4;
+}
+
+#preheader .presocial .gp {
+    color: #d34836;
+}
+
+
+/*header*/
+
+header {
+    background-color: #246EB9;
+    padding: 10px 0px;
+    box-shadow: 0px 3px 3px white;
+}
+
+header .logo {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 3%;
+}
+
+header .logo img {
+    height: 60px;
+    width: 250px;
+}
+
+header .nav {
+    color: white;
+}
+
+header .nav ul {
+    list-style: none;
+    margin-top: 26px;
+    margin-left: 31%;
+    font-family: 'Noticia Text', serif;
+}
+
+header .nav ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 0px 5px;
+}
+
+header .nav ul li:last-child {
+    margin: 0px;
+}
+
+
+/*-------------------*/
+
+
+/*slider*/
+
+#image_slider {
+    margin-bottom: 2%;
+}
+
+
+/*-------------------*/
+
+
+/*content*/
+
+#content {}
+
+#content .categ {
+    margin-bottom: 2%;
+}
+
+#content .categ .box {
+    text-align: center;
+    height: 280px;
+    width: 275px;
+    position: relative;
+}
+
+#content .categ .box img {
+    height: 280px;
+    width: 275px;
+}
+
+#content .categ .box .box-cont {
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: 89.3%;
+    font-size: 16px;
+    padding: 5px;
+    background-color: black;
+}
+
+#content .welcome {
+    margin-bottom: 2%;
+}
+
+#content .welcome h1 {
+    text-align: center;
+    position: relative;
+    width: 50%;
+    left: 25%;
+    color: #40346d;
+    margin-bottom: 2%;
+    /*    border: 1px solid red;*/
+}
+
+#content .welcome h1:after {
+    position: absolute;
+    height: 2px;
+    background-color: #40346d;
+    content: "";
+    display: table;
+    bottom: -12%;
+    width: 86%;
+    left: 7%;
+}
+
+#content .welcome .welcont {
+    text-align: justify;
+    color: #40346d;
+    font-family: 'Crete Round', serif;
+    font-size: 16px;
+    width: 100%;
+}
+
+#content .membership {
+    padding: 2% 0;
+    border-radius: 15px;
+    background-color: #4EA8C9;
+}
+
+#content .membership .memhead {
+    text-align: center;
+    position: relative;
+    width: 16%;
+    left: 40%;
+    color: white;
+    margin-bottom: 4%;
+}
+
+#content .membership .memhead:after {
+    position: absolute;
+    height: 2px;
+    background-color: white;
+    content: "";
+    display: table;
+    bottom: -12%;
+    width: 100%;
+}
+
+#content .membership .memcont .mem {
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    width: 55%;
+    color: white;
+    font-size: 16px;
+    font-family: 'Noticia Text', serif;
+    min-height: 70px;
+    height: 20%;
+    margin-left: 15%;
+    box-shadow: 0px 0px 3px 3px white;
+}
+
+
+/*-------------------*/
