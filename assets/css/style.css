@@ -104,7 +104,9 @@ header .nav ul li:last-child {
 
 /*content*/
 
-#content {}
+#content {
+    margin-bottom: 2%;
+}
 
 #content .categ {
     margin-bottom: 2%;
@@ -202,6 +204,117 @@ header .nav ul li:last-child {
     height: 20%;
     margin-left: 15%;
     box-shadow: 0px 0px 3px 3px white;
+}
+
+
+/*-------------------*/
+
+
+/*footer*/
+
+footer {
+    background-color: #000;
+    padding: 10px 0;
+}
+
+footer .headadd,
+.branchhead,
+.footsocialhead {
+    color: #999;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer .headoffcont,
+.branchlist {
+    color: #999;
+    line-height: 1.625;
+    /*    -webkit-font-smoothing: antialiased;*/
+    font-family: 'Quattrocento', serif;
+    font-size: 16px;
+}
+
+footer .headoffcont {
+    width: 70%;
+}
+
+footer .headoffice,
+.branch,
+.footsocial {
+    margin-left: 2%;
+}
+
+footer .headoffcont {
+    margin-top: 7px;
+}
+
+footer .branch .branchlist ul {
+    list-style: none;
+    padding: 0px;
+}
+
+footer .branch .branchlist ul li {
+    padding-top: 7px;
+    padding-bottom: 2px;
+    width: 70%;
+    border-bottom: 1px solid #999;
+}
+
+footer .footsocial .footfb {
+    background-color: #3b5998;
+    margin-top: 7px;
+}
+
+footer .footsocial .foottwit {
+    background-color: #0084b4;
+}
+
+footer .footsocial .footgp {
+    background-color: #d34836;
+}
+
+footer .footsocial .footfb,
+.foottwit,
+.footgp {
+    color: white;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 2%;
+}
+
+footer .footsocial .fset {
+    position: relative;
+}
+
+footer .footsocial .fset span {
+    position: absolute;
+    color: #999;
+    top: 25%;
+    left: 15%;
+}
+
+
+/*-------------------*/
+
+
+/*postfooter*/
+
+#postfooter {
+    background-color: #f2f2f2;
+    font-family: 'Quattrocento', serif;
+    color: #000;
+    font-size: 16px;
+}
+
+#postfooter p {
+    margin-top: 5px;
+    text-align: center;
+    padding: 5px;
 }
 
 
