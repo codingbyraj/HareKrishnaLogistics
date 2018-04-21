@@ -71,6 +71,7 @@ header #comp_name {
 
 header #comp_name h2 {
     display: inline;
+    color: whitesmoke;
 }
 
 header .logo img {
@@ -98,6 +99,11 @@ header .nav ul li {
 
 header .nav ul li:last-child {
     margin: 0px;
+}
+
+header .nav ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 #mobmenu {
@@ -145,6 +151,11 @@ header .nav ul li:last-child {
     padding: 3% 0%;
 }
 
+#mobmenulist ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
 .mobactive {
     background: rgba(244, 244, 244, 0.5);
     color: black;
@@ -335,6 +346,12 @@ footer .headadd,
     font-family: 'Oswald', sans-serif;
 }
 
+#branch-head{
+    font-family: arial;
+    font-weight: inherit;
+}
+
+
 footer .headoffcont,
 .branchlist {
     color: #999;
@@ -466,9 +483,14 @@ footer .footsocial .fset span {
         margin-left: 3.5%;
         margin-top: 18px;
     }
+
     header .logo img {
-        height: 50px;
-        width: 220px;
+        height: 95px;
+        width: 100px;
+    }
+    header #comp_name{
+        top: 22%;
+        left: 41%;
     }
     #content .categ .box {
         height: 200px;
@@ -530,6 +552,10 @@ footer .footsocial .fset span {
     }
     header .nav {
         display: none;
+    }
+    header #comp_name{
+        top: 30%;
+        left: 23%;
     }
     #content .categ .box {
         height: 300px;
@@ -594,6 +620,17 @@ footer .footsocial .fset span {
 }
 
 @media(max-width:480px) {
+    header .logo img{
+        height: 95px;
+        width: 100px;
+        margin-left: -5%;
+    }
+    header #comp_name{
+        top:36%;
+    }
+    header #comp_name h2{
+        font-size: 23px;
+    }
     #mobmenu {
         left: 74%;
     }
@@ -624,11 +661,14 @@ footer .footsocial .fset span {
         width: 67%;
     }
 }
-
-@media(max-width:480px) {
+ 
+@media(max-width:320px) {
     header .logo img {
-        width: 187px;
+        width: 100px;
         margin-left: -20px;
+    }
+    header #comp_name{
+        display: none;
     }
     #mobmenu {
         left: 70%;
@@ -658,4 +698,28 @@ footer .footsocial .fset span {
 }
 
 
-/*------------------*/
+/*------- About us styling -----------*/
+
+#about-content{
+    padding: 3% 0;
+}
+#about-content h1{
+    text-align:center;
+    position: relative;
+    margin-bottom: 15px;
+    color: #40346d;
+}
+#about-content h1:after{
+    content:"";
+    border:1px solid #40346d;
+    position: absolute;
+    width: 30%;
+    left: 35%;
+    bottom: -10%;
+}  
+#about-content p{
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: justify;
+    margin-bottom: 15px;
+}
